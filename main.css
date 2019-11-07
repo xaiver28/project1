@@ -1,0 +1,18 @@
+.navline{
+  text-decoration: none;
+  padding:160%;
+}
+
+
+
+#navbar{
+  display: flex;
+  background-color: skyblue;
+  color:white
+  padding: 4% 4%;
+  font-size: 20pt;
+
+}
+#navbar div {
+  padding: 2% 2%;
+}
