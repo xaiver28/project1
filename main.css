@@ -13,7 +13,7 @@ background:#216eeb;
 box-sizing: border-box;
 border-radius: 4px;
 }
-.difflin{
+.thymes{
 
 color: white;
 height: 60px;
@@ -28,6 +28,7 @@ text-decoration: none;
 }
 nav{
 float: right;
+margin:0;
 
 }
 .clearfix{
@@ -97,4 +98,29 @@ height:auto ;
 }
 h2{
   text-align: center;
+  font-size: 35px;
+  color:#216eeb;
+}
+h3{
+text-align: center;
+color:#216eeb;
+font-size: 35px;
+
+}
+
+
+#product{
+  padding: 10px;
+display: grid;
+grid-template:auto / repeat(2,49.5%);
+
+}
+#product img{
+float:left;
+width:100%;
+padding:4px;
+}
+footer{
+  background-color: #216eeb;
+  padding:9px;
 }
