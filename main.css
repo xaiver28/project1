@@ -1,50 +1,100 @@
-
-
-div a{
-  display: block; /*makes the whole are not only the words clickable*/
-  width: 30px;
-  color:#000;
-  padding: 8px 100px;
-  text-decoration: none;
-  background-color: #d1d1d1;
- width: 110px;
- height: 110px;
- overflow: hidden;
+body{
+margin: 0;
+padding: 0;
+/*background-image:url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);*/
+background-color:white;
 }
-
-div a:hover {
-  background-color:red;
-
+header{
+position: relative;
+max-width:1360px;
+margin: 20px auto;
+padding: 10px;
+background:#216eeb;
+box-sizing: border-box;
+border-radius: 4px;
 }
+.difflin{
 
-nav {
-  border: 1px solid none;/*outer border color*/
-
-
+color: white;
+height: 60px;
+font-size: 36px;
+line-height:60px;
+padding: 0 20px;
+text-align:center;
+box-sizing: border-box;
+float: left;
+font-weigth: 700;
+text-decoration: none;
 }
-div a:hover:not(.navbar){
-  color: white;/*this is the color of text*/
-
-}
-div{
- width: 10px;
- height: 10%;/*distance between each topic*/
-
-}
-
-
-
 nav{
-  list-style-type: none;
-  margin-left: 0;
-  padding:0;
-  width: 18%;
-  background-color: #f1f1f1;
-  height: 100%; /*This will make the nav bar take up the whole page vertically*/
-  position: fixed;/*This makes the navbar stay while the user scroll....better UX */
-  overflow: auto;/* Eventhough the page is moving the navbar will still stay eventhough page limit is maxed*/
+float: right;
 
 }
-h1 {
-  float:left;
+.clearfix{
+clear:both;
+}
+
+nav ul {
+margin: 0;
+padding: 0 ;
+display: flex;
+}
+nav ul li{
+
+list-style:none;
+}
+nav ul li a{
+display:block;
+margin: 10px 0;
+padding:10px 20px;
+text-decoration:none;
+color: white;
+}
+
+nav ul li a.active,
+nav ul li a:hover
+{
+background: yellow;
+color: #216eeb;
+transition: 0.5s;
+}
+img{
+padding:20px;
+height:450px;
+width:500px;
+
+}
+p{
+padding-top: 1px;
+font-weight: 400;
+}
+h1{
+text-align:center;
+}
+h1{
+color:#216eeb ;
+}
+.grid{
+display:grid;
+grid-template: auto / repeat(2,49.5%);
+
+}
+.grid img{
+  width: 96%;
+  height: 94%;
+}
+#grid{
+  padding: 10px;
+display: grid;
+grid-template:auto / repeat(4,25%);
+
+}
+#grid img{
+  width:100%;
+  padding:4px;
+
+height:auto ;
+}
+h2{
+  text-align: center;
 }
